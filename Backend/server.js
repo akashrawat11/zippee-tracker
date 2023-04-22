@@ -29,5 +29,6 @@ db.sequelize.sync().then((back)=>{
 
     app.get("/track/:id", (req, res) => {
         console.log("opened mail....");
+        //track if user with the id have opened the mail or not
     })
 })
